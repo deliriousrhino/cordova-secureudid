@@ -27,8 +27,7 @@
 	// Create Plugin Result
 	CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:self.secureUDID];
 	// Call  the Success Javascript function
-	[self writeJavascript: [pluginResult toSuccessCallbackString:self.callbackId]];
-
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:self.callbackId];
 }
 
 @end
