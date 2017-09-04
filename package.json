@@ -1,0 +1,19 @@
+{
+  "name": "secure-device-identifier",
+  "version": "1.0.5",
+  "cordova": {
+    "id": "secure-device-identifier",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "description": "SecureDeviceIdentifier",
+  "repository": "https://github.com/deliriousrhino/cordova-secureudid.git",
+  "issue": "https://github.com/deliriousrhino/cordova-secureudid/issues",
+  "keywords": [
+    "cordova",
+    "secure-device-identifier"
+  ],
+  "author": "Mgcrea",
+  "license": "Apache 2.0"
+}
